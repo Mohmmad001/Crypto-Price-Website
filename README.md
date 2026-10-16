@@ -4,6 +4,12 @@ A responsive React app for browsing real-time cryptocurrency prices and market d
 
 Browse the top 20 coins by market cap, search and sort them, switch between grid and list views, and open any coin to see a detailed page with a 7-day price chart.
 
+## 🌐 Live Demo
+
+**👉 [steady-bombolone-1c733f.netlify.app](https://steady-bombolone-1c733f.netlify.app)**
+
+[![Live Demo](https://img.shields.io/badge/demo-live-00bcd4?style=for-the-badge&logo=netlify&logoColor=white)](https://steady-bombolone-1c733f.netlify.app)
+
 ## ✨ Features
 
 - **Live market data** – top 20 cryptocurrencies by market cap, fetched from CoinGecko
