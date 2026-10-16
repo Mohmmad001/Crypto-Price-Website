@@ -1,0 +1,168 @@
+.crypto-details {
+  width: 70%;
+  color: white;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  width: 90%;
+}
+
+.first {
+  display: flex;
+  gap: 20px;
+}
+
+.name-info .title {
+  font-size: 35px;
+  color: white;
+}
+
+.name-info .short-title {
+  color: #9e9e9e;
+}
+
+.name-info .rank {
+  background-color: #00bcd4;
+  color: black;
+  width: max-content;
+  height: 29px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 21px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.market-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px white;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.market-details:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.market-details .price {
+  font-size: 25px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.market-details .stock-state {
+  width: 100px;
+}
+
+.the24h-change {
+  display: flex;
+  gap: 10px;
+}
+
+.price-chart {
+  box-shadow: 0px 0px 10px white;
+  width: 90%;
+  min-height: 300px;
+  flex-shrink: 0;
+  margin-top: 28px;
+  transition: transform 0.3s ease;
+}
+
+.price-chart:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.chart {
+  width: 100%;
+}
+
+.financial-info {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 90%;
+  flex-shrink: 0;
+}
+
+.financial-info div {
+  width: 185px;
+  height: 100px;
+  flex-shrink: 0;
+  box-shadow: 0px 0px 10px white;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.financial-info div:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.the24h-change {
+  margin: 15px;
+  font-size: 23px;
+  color: white;
+}
+
+.the24h-change .high-change {
+  margin-right: 15px;
+}
+
+.the24h-change span {
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+h3 {
+  margin: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* The track behind the thumb */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* The draggable thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* When hovering over the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.market-cap,
+.volume,
+.supply,
+.total-supply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+span {
+  color: #9e9e9e;
+}
